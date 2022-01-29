@@ -106,6 +106,19 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
+.hero-image img {
+    position: relative;
+    animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
+@keyframes example {
+    from   {top:10px;}
+    to {top:-10px;}
+  }
+
 /* ----------feature-section---------- */
 .features{
     background: var(--dark-background);
