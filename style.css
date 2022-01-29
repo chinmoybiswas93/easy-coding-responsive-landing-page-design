@@ -68,6 +68,12 @@ nav ul li a {
     color: white;
     padding: 8px 15px;
     border-radius: 25px;
+    transition: all .3s ease-in-out;
+}
+.btn:hover{
+    background-color: black;
+    box-shadow: 2px 5px 5px #888888;
+    transform: translateY(-10px);
 }
 
 /* -------------hero section--------------- */
